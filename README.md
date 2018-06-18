@@ -1,2 +1,2 @@
 # angularDeploy
-Use this code to create your express app 
+Use the code in server.js to  create your express app 
