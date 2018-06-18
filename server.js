@@ -5,11 +5,11 @@ const express= require('express'),
 const app =express();
 
 
-app.use(express.static('./YOUR_APP_NAME/dummy'));
+app.use(express.static('./dist/your_app_name'));
 
 app.get('/*', (req,res)=>{
     
-res.sendFile(path.join(__dirname,'/dist/YOUR_APP_NAME/index.html'));
+res.sendFile(path.join(__dirname,'/dist/your_app_name/index.html'));
 
 });
 
